@@ -69,7 +69,7 @@ namespace PROG6221Part1
             Console.WriteLine(@"
       _______________________
      /                       \
-    |     💬 Cyber Bot       |
+    |     💬 Cyber Awareness |
     |       _______          |
     |      /       \         |
     |     |   ???   |        |
