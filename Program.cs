@@ -62,6 +62,8 @@ namespace PROG6221Part1
                 Console.WriteLine("\n[Text Greeting] Hello! Welcome to the Cybersecurity Awareness Bot.");
             }
         }
+       //System.Media.SoundPlayer player = new System.Media.SoundPlayer("C:\\Users\\lab_services_student\\source\\repos\\PROG6221Part1\\PROG6221Part1");
+        //player.Play();
 
         static void DisplayAsciiLogo()
         {
