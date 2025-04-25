@@ -121,9 +121,9 @@ namespace PROG6221Part1
                 Console.WriteLine("Bot: Safe browsing means checking URLs for HTTPS, not clicking unknown links, and using ad-blockers or antivirus software.");
             }
             else if (ContainsAny(new[] { "cyber hygiene", "stay safe", "online safety", "hygiene", "good habits", "cyber habits", "security habits", "cybersecurity habits" }))
-            {
+            
                 Console.WriteLine("Bot: Good cyber hygiene includes updating your software regularly, avoiding public Wi-Fi for sensitive tasks, and backing up your data.");
-            }
+            
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
