@@ -14,19 +14,28 @@ Cyber hygiene
 
 Main functions are: 
 
-Voice greeting that greets the user 
+Crucial Elements:
+ Finding Topics:
 
-Ask the user’s name 
+ In order to identify cybersecurity-related subjects including phishing, password security, safe surfing, and cyber hygiene, it examines user input.
 
-Provides a list of topics to ask about 
+ Sentiment Analysis:
 
-Provides basic responses 
+ When it detects emotional indications such as anxiety, perplexity, or enthusiasm, it reacts sympathetically to help or support the user.
 
-Ask the user to ask again from certain topics if it does not recognize the question 
+ Tips for Follow-Up:
 
-Asks the user if they want to continue or exit  
+ It asks if the user needs further information after providing a preliminary response on a subject.  If "yes" is selected by the user, useful advice about that subject is given.
 
-Greets the user and ends the bot when user inputs exit 
+ Monitoring Topics:
+
+ The number of times each issue is brought up is tracked by the bot.
+
+ The bot recognises a topic as something the user is interested in or worried about if it is brought up three times.
+
+ Fallback Management:
+
+ The bot responds with a random error message if it cannot grasp the input.
 
  References:
 Troelsen, A. and Japikse, P. 2021. Pro C# 9 with .NET 5: Foundational Principles and Practices in Programming. 10th ed. Apress.
